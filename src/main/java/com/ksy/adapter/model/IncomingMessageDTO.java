@@ -9,7 +9,7 @@ import lombok.Data;
 @Schema(description = "Incoming message object containing the message and its metadata")
 public class IncomingMessageDTO {
     @NotBlank(message = "Message field 'msg' cannot be empty")
-    @Schema(description = "The main message content", example = "Hello, this is a test message")
+    @Schema(description = "The main message content", example = "Тестовое сообщение")
     private String msg;
 
     @NotBlank(message = "Message field 'lng' cannot be empty")
