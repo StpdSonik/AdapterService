@@ -21,7 +21,7 @@
 
 ```json {
 {
-   "msg": "Hello, this is a test message",
+   "msg": "Тестовое сообщение",
    "lng": "ru",
    "coordinates": {
       "latitude": 55.7558,
